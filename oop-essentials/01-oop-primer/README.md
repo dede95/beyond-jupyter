@@ -24,7 +24,7 @@ The child class can optionally add new attributes and behaviours, extending the 
 Inheritance thus establishes hierarchical relationships between classes and promotes code reuse. 
 
 Parent classes which do not implement all the methods they declare are called *abstract* and cannot be instantiated at runtime. 
-Such classes thus define abstractions which serve as interfaces in object-oriented programming.
+Such classes thus define abstractions which serve as interfaces in object-oriented programming. See this video explanation: <https://www.youtube.com/watch?v=97V7ICVeTJc>.
 
 
 ## Subtype Polymorphism: Abstractions as Interfaces

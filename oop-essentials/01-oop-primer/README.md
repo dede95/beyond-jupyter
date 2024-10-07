@@ -30,7 +30,7 @@ Such classes thus define abstractions which serve as interfaces in object-orient
 ## Subtype Polymorphism: Abstractions as Interfaces
 
 Inheritance supports subtype polymorphism, where subclass objects can be used in place of parent objects, 
-i.e. if a function expects an instance of a parent class as a parameter, an instance of any of its subclasses can be passed instead.
+i.e. if a function expects an instance of a parent class as a parameter, an instance of any of its subclasses can be passed instead (i.e. same function but with different value in subcalss can override the function in the parent).
 This enables certain generalisations:
   * We can treat (collections of) different types of objects in the same way as long as they are instances of a common superclass.
   * We can (dynamically) modify behaviour by exchanging the implementations that are being used by algorithms at runtime, simply by using a different subclass of the superclass that is expected by the algorithm.
